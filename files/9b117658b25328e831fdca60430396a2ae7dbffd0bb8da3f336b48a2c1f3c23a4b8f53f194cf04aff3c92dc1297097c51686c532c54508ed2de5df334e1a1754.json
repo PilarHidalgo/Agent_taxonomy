@@ -1,0 +1,358 @@
+{
+  "name": "flare",
+  "children": [
+    {
+      "name": "Thing",
+      "children": [
+        {
+          "name": "Entity",
+          "value": 0,
+          "children": [
+            {
+              "name": "Material Entity",
+              "value": 10,
+              "children": [
+                {
+                  "name": "Agent",
+                  "value": 11,
+                  "children": [
+                    {
+                      "name": "Crew",
+                      "value": 17
+                    },
+                    {
+                      "name": "Human agent",
+                      "value": 17
+                    },
+                    {
+                      "name": "Robotic agent",
+                      "value": 17
+                    },
+                    {
+                      "name": "Software agent",
+                      "value": 17
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Inmaterial Entity",
+              "value": 10,
+              "children": [
+                {
+                  "name": "Role",
+                  "value": 12,
+                  "children": [
+                    {
+                      "name": "Role Agent",
+                      "value": 1,
+                      "children": [
+                        {
+                          "name": "Administrator role",
+                          "value": 5
+                        },
+                        {
+                          "name": "User_role",
+                          "value": 5
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Assistant role",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Task",
+                  "value": 12,
+                  "children": [
+                    {
+                      "name": "Decomposition",
+                      "value": 3
+                    },
+                    {
+                      "name": "Orchestration",
+                      "value": 3
+                    },
+                    {
+                      "name": "Synthesis",
+                      "value": 3
+                    }
+                  ]
+                },
+                {
+                  "name": "Modality",
+                  "value": 12,
+                  "children": [
+                    {
+                      "name": "Multimodality",
+                      "value": 4
+                    }
+                  ]
+                },
+                {
+                  "name": "Capacity",
+                  "value": 12,
+                  "children": [
+                    {
+                      "name": "Proactivity",
+                      "value": 7
+                    },
+                    {
+                      "name": "Reactivity",
+                      "value": 7
+                    },
+                    {
+                      "name": "Social Ability",
+                      "value": 7
+                    }
+                  ]
+                },
+                {
+                  "name": "Process",
+                  "value": 12,
+                  "children": [
+                    {
+                      "name": "Model",
+                      "value": 8,
+                      "children": [
+                        {
+                          "name": "AI Models",
+                          "value": 2,
+                          "children": [
+                            {
+                              "name": "NLP Models",
+                              "value": 6,
+                              "children": [
+                                {
+                                  "name": "Generative models",
+                                  "value": 47,
+                                  "children": [
+                                    {
+                                      "name": "LLM",
+                                      "value": 31,
+                                      "children": [
+                                        {
+                                          "name": "Models based on Transformers",
+                                          "value": 38
+                                        },
+                                        {
+                                          "name": "Models based on Embeddings",
+                                          "value": 38
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "System process",
+                      "value": 8,
+                      "children": [
+                        {
+                          "name": "Memory",
+                          "value": 9,
+                          "children": [
+                            {
+                              "name": "Long term memory",
+                              "value": 41,
+                              "children": [
+                                {
+                                  "name": "Explicit Long_term memory",
+                                  "value": 40,
+                                  "children": [
+                                    {
+                                      "name": "Episodic",
+                                      "value": 82
+                                    },
+                                    {
+                                      "name": "Semantic",
+                                      "value": 82
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Implicit Long_term memory",
+                                  "value": 40
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Sensory memory",
+                              "value": 41,
+                              "children": [
+                                {
+                                  "name": "iconic sensory memory",
+                                  "value": 78
+                                },
+                                {
+                                  "name": "echoic sensory memory",
+                                  "value": 78
+                                },
+                                {
+                                  "name": "haptic sensory memory",
+                                  "value": 78
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Short term memory",
+                              "value": 41
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Prompt",
+                      "value": 8
+                    },
+                    {
+                      "name": "Observation",
+                      "value": 8
+                    },
+                    {
+                      "name": "Decision",
+                      "value": 8
+                    },
+                    {
+                      "name": "Self-reflection",
+                      "value": 8,
+                      "children": [
+                        {
+                          "name": "Iterative improvement",
+                          "value": 72
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Action",
+          "value": 0,
+          "children": [
+            {
+              "name": "Semantic search",
+              "value": 14
+            },
+            {
+              "name": "Summarization",
+              "value": 14
+            }
+          ]
+        },
+        {
+          "name": "Dimension",
+          "value": 0,
+          "children": [
+            {
+              "name": "Environment Dimension",
+              "value": 28,
+              "children": [
+                {
+                  "name": "Closure",
+                  "value": 30
+                },
+                {
+                  "name": "Determinism",
+                  "value": 30
+                },
+                {
+                  "name": "Dynamism",
+                  "value": 30
+                },
+                {
+                  "name": "Permanence",
+                  "value": 30
+                },
+                {
+                  "name": "Population",
+                  "value": 30
+                },
+                {
+                  "name": "Scope",
+                  "value": 30
+                },
+                {
+                  "name": "Type",
+                  "value": 30
+                }
+              ]
+            },
+            {
+              "name": "Interaction Dimension",
+              "value": 28,
+              "children": [
+                {
+                  "name": "Access",
+                  "value": 34
+                },
+                {
+                  "name": "Communication",
+                  "value": 34
+                },
+                {
+                  "name": "Initiative",
+                  "value": 34
+                },
+                {
+                  "name": "Robustness",
+                  "value": 34
+                },
+                {
+                  "name": "Sense",
+                  "value": 34
+                }
+              ]
+            },
+            {
+              "name": "Intrinsic Dimension",
+              "value": 28,
+              "children": [
+                {
+                  "name": "Adaptability",
+                  "value": 35
+                },
+                {
+                  "name": "Delegation",
+                  "value": 35
+                },
+                {
+                  "name": "Goals",
+                  "value": 35
+                },
+                {
+                  "name": "Knowledge",
+                  "value": 35
+                },
+                {
+                  "name": "Lifecycle",
+                  "value": 35
+                },
+                {
+                  "name": "Reasoning",
+                  "value": 35
+                },
+                {
+                  "name": "Specialization",
+                  "value": 35
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

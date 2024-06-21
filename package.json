@@ -1,0 +1,14 @@
+{
+  "name": "e50d0bd2ee7947fc",
+  "main": "e50d0bd2ee7947fc@507.js",
+  "version": "507.0.0",
+  "homepage": "https://observablehq.com/d/e50d0bd2ee7947fc",
+  "author": {
+    "name": "pilarhidalgo",
+    "url": "https://observablehq.com/@pilarhidalgo"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
